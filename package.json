@@ -1,0 +1,21 @@
+{
+  "name": "screening_task",
+  "version": "1.0.0",
+  "description": "To determine the order to execute dependent tasks",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "author": "Shiva Jangra",
+  "license": "ISC"
+}
